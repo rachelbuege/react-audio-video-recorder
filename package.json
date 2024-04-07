@@ -2,8 +2,11 @@
   "name": "react-recorder",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://gitname.github.io/react-gh-pages",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -16,6 +19,9 @@
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
+    "gh-pages": "^6.1.1",
+    "install": "^0.13.0",
+    "npm": "^10.5.1",
     "vite": "^3.2.3"
   }
 }
